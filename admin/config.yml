@@ -145,6 +145,8 @@ collections:
         name: date
         widget: datetime
       - *ref_0
+    editor:
+      preview: false
   - label: Theme Settings
     name: settings
     identifier_field: title
@@ -1779,6 +1781,723 @@ collections:
             label: Text
             name: 7b9886e5
             widget: string
+          - hint: 'Original text: The Difference, key: -7a7c0b74'
+            label: Text
+            name: '-7a7c0b74'
+            widget: string
+          - hint: 'Original text: How It Works, key: -5d0ca1c3'
+            label: Text
+            name: '-5d0ca1c3'
+            widget: string
+          - hint: 'Original text: Pricing, key: 507137a6'
+            label: Text
+            name: 507137a6
+            widget: string
+          - hint: 'Original text: Get Started, key: -364d0a89'
+            label: Text
+            name: '-364d0a89'
+            widget: string
+          - hint: >-
+              Original text: Lawn Care Web Design That Wins Customers, key:
+              -248031f6
+            label: Text
+            name: '-248031f6'
+            widget: string
+          - hint: >-
+              Original text: Get a professional lawn care website with , key:
+              -2228b756
+            label: Text
+            name: '-2228b756'
+            widget: string
+          - hint: 'Original text: $0 setup, key: -3c0b4617'
+            label: Text
+            name: '-3c0b4617'
+            widget: string
+          - hint: "Original text:  in 2\_weeks., key: -4d323a48"
+            label: Text
+            name: '-4d323a48'
+            widget: string
+          - hint: 'Original text: Your business needs , key: -6bdbec4a'
+            label: Text
+            name: '-6bdbec4a'
+            widget: string
+          - hint: "Original text: curb\_appeal, key: -3f87ba33"
+            label: Text
+            name: '-3f87ba33'
+            widget: string
+          - hint: >-
+              Original text: Premium design attracts high-value clients. People
+              trust businesses that look the part. And for lawn care clients –
+              aesthetics matter., key: 6fc3595e
+            label: Text
+            name: 6fc3595e
+            widget: text
+          - hint: 'Original text: Our difference, key: 2609e2b1'
+            label: Text
+            name: 2609e2b1
+            widget: string
+          - hint: 'Original text: Get started, key: 667a5d97'
+            label: Text
+            name: 667a5d97
+            widget: string
+          - hint: 'Original text: Quick and , key: -2890ec64'
+            label: Text
+            name: '-2890ec64'
+            widget: string
+          - hint: 'Original text: easy, key: 2f6402'
+            label: Text
+            name: 2f6402
+            widget: string
+          - hint: >-
+              Original text: Getting a professional website doesn’t have to be
+              hard. With our 2-week website process, you could have your new
+              site by , key: -5cb6303a
+            label: Text
+            name: '-5cb6303a'
+            widget: text
+          - hint: 'Original text: next month, key: 5d3d7f13'
+            label: Text
+            name: 5d3d7f13
+            widget: string
+          - hint: 'Original text: How it works, key: -5f2415c3'
+            label: Text
+            name: '-5f2415c3'
+            widget: string
+          - hint: 'Original text: One, key: 13646'
+            label: Text
+            name: '13646'
+            widget: string
+          - hint: 'Original text:  new customer pays for your website., key: 412524f6'
+            label: Text
+            name: 412524f6
+            widget: string
+          - hint: >-
+              Original text: How much do you make from your average client?
+              Website plans start at $99/mo. If your new website brings in one
+              new client, it pays for itself., key: 35a9f46e
+            label: Text
+            name: 35a9f46e
+            widget: text
+          - hint: 'Original text: Included with your website at , key: 6f5068b1'
+            label: Text
+            name: 6f5068b1
+            widget: string
+          - hint: "Original text: no\_extra\_cost, key: 11630e9c"
+            label: Text
+            name: 11630e9c
+            widget: string
+          - hint: 'Original text: Premium Design, key: -7f056c19'
+            label: Text
+            name: '-7f056c19'
+            widget: string
+          - hint: >-
+              Original text: Look as good as the work you do. Your site will be
+              modern, clean, and professional., key: -7504468b
+            label: Text
+            name: '-7504468b'
+            widget: string
+          - hint: 'Original text: Content Written For You, key: -54705be8'
+            label: Text
+            name: '-54705be8'
+            widget: string
+          - hint: 'Original text: Mobile-Friendly, key: 5cb38d76'
+            label: Text
+            name: 5cb38d76
+            widget: string
+          - hint: 'Original text: Hassle-Free Management, key: 65ac071c'
+            label: Text
+            name: 65ac071c
+            widget: string
+          - hint: 'Original text: Optimized For Search, key: 66e8d9d8'
+            label: Text
+            name: 66e8d9d8
+            widget: string
+          - hint: 'Original text: Built-In Security, key: -58a16514'
+            label: Text
+            name: '-58a16514'
+            widget: string
+          - hint: 'Original text: Reliable Hosting, key: -15b4989c'
+            label: Text
+            name: '-15b4989c'
+            widget: string
+          - hint: 'Original text: Unlimited Updates, key: bfe3c4b'
+            label: Text
+            name: bfe3c4b
+            widget: string
+          - hint: 'Original text: Pricing plans, key: 78ae5170'
+            label: Text
+            name: 78ae5170
+            widget: string
+          - hint: >-
+              Original text: Simple pricing build for the lawn care business
+              model., key: 57bb2a2a
+            label: Text
+            name: 57bb2a2a
+            widget: string
+          - hint: 'Original text: Subscription, key: 1e21ad3d'
+            label: Text
+            name: 1e21ad3d
+            widget: string
+          - hint: 'Original text: $99, key: 8e44'
+            label: Text
+            name: '8e44'
+            widget: string
+          - hint: 'Original text: /mo, key: be11'
+            label: Text
+            name: be11
+            widget: string
+          - hint: 'Original text: For 24 months, key: -2eed6526'
+            label: Text
+            name: '-2eed6526'
+            widget: string
+          - hint: 'Original text: 5 pages, key: 309d4819'
+            label: Text
+            name: 309d4819
+            widget: string
+          - hint: 'Original text: Hosting included, key: -1538bafe'
+            label: Text
+            name: '-1538bafe'
+            widget: string
+          - hint: 'Original text: Unlimited updates, key: -573a5b95'
+            label: Text
+            name: '-573a5b95'
+            widget: string
+          - hint: 'Original text: $45/mo after 24 months, key: 78d89e79'
+            label: Text
+            name: 78d89e79
+            widget: string
+          - hint: 'Original text: (yes, the price drops!), key: 3c9b9a33'
+            label: Text
+            name: 3c9b9a33
+            widget: string
+          - hint: 'Original text: Lump-sum, key: -3bace1f6'
+            label: Text
+            name: '-3bace1f6'
+            widget: string
+          - hint: 'Original text: $2,100, key: 4043cbd3'
+            label: Text
+            name: 4043cbd3
+            widget: string
+          - hint: 'Original text: Save 13%, key: -77c796c0'
+            label: Text
+            name: '-77c796c0'
+            widget: string
+          - hint: 'Original text: Free hosting for 24 months, key: -14690000'
+            label: Text
+            name: '-14690000'
+            widget: string
+          - hint: 'Original text: Free unlimited updates for 24 months, key: 648e0a91'
+            label: Text
+            name: 648e0a91
+            widget: string
+          - hint: 'Original text: This is a block quote, key: 4b1bdc96'
+            label: Text
+            name: 4b1bdc96
+            widget: string
+          - hint: >-
+              Original text: The rich text element allows you to create and
+              format headings, paragraphs, blockquotes, images, and video all in
+              one place instead of having to add and format them individually.
+              Just double-click and easily create content., key: 2e633c6a
+            label: Text
+            name: 2e633c6a
+            widget: text
+          - hint: 'Original text: This is a link inside of a rich text, key: 3a72e61a'
+            label: Text
+            name: 3a72e61a
+            widget: string
+          - hint: 'Original text: List item, key: 2aff8d35'
+            label: Text
+            name: 2aff8d35
+            widget: string
+          - hint: 'Original text: Caption goes here, key: 41a0e460'
+            label: Text
+            name: 41a0e460
+            widget: string
+          - hint: 'Original text: is-green, key: -4e8d1760'
+            label: Text
+            name: '-4e8d1760'
+            widget: string
+          - hint: 'Original text: background-color-green, key: 3c81cdfa'
+            label: Text
+            name: 3c81cdfa
+            widget: string
+          - hint: 'Original text: text-color-green, key: -fcb4887'
+            label: Text
+            name: '-fcb4887'
+            widget: string
+          - hint: >-
+              Original text: Simple pricing, simple process, professional
+              results. We take the hassle out of building and managing your new
+              website, so you can focus on your business., key: -480b37e1
+            label: Text
+            name: '-480b37e1'
+            widget: text
+          - hint: "Original text: Choose your\_plan, key: -47bfdf33"
+            label: Text
+            name: '-47bfdf33'
+            widget: string
+          - hint: >-
+              Original text: We offer an affordable subscription plan at $99/mo,
+              with $0 setup fee, so that you can start generating new leads as
+              soon as possible. Or, if you prefer, you can pay for your website
+              upfront, whatever works for you., key: 64d29814
+            label: Text
+            name: 64d29814
+            widget: text
+          - hint: 'Original text: Check out pricing details here., key: -6a4f4884'
+            label: Text
+            name: '-6a4f4884'
+            widget: string
+          - hint: 'Original text: Tell us about your business, key: 59e2aa67'
+            label: Text
+            name: 59e2aa67
+            widget: string
+          - hint: >-
+              Original text: To start building your website, we need to know a
+              little about you. We'll send you a questionnaire that asks about
+              your business, services, differentiators, and brand. This should
+              only take 10-15 minutes to complete, and then we're off to the
+              races., key: 55cd647a
+            label: Text
+            name: 55cd647a
+            widget: text
+          - hint: "Original text: We build your\_site, key: 50246b30"
+            label: Text
+            name: 50246b30
+            widget: string
+          - hint: "Original text: Sit back and relax –\_it's our turn to do the heavy lifting. We'll get to work designing and building your site, in no more than 2 weeks. When it's ready, we'll show you your new website on a private link, so you can give any last adjustments before we're ready to rock., key: 3597ffe3"
+            label: Text
+            name: 3597ffe3
+            widget: text
+          - hint: 'Original text: Launch, key: -78c1f02d'
+            label: Text
+            name: '-78c1f02d'
+            widget: string
+          - hint: 'Original text: 🚀, key: 1b0de3'
+            label: Text
+            name: 1b0de3
+            widget: string
+          - hint: >-
+              Original text: Easiest part of the whole darn thing. Once you give
+              the green light, we'll launch your site, and submit it to Google.,
+              key: 35fc569e
+            label: Text
+            name: 35fc569e
+            widget: text
+          - hint: >-
+              Original text: Need to update your phone number? Got a really good
+              picture of a new customer's lawn? Just want to tweak how something
+              is worded? Shoot us an email, we'll take care of everything for
+              you., key: 3322406d
+            label: Text
+            name: 3322406d
+            widget: text
+          - hint: >-
+              Original text: Pricing built for the lawn care and landscaping
+              business model. Pay $0 setup with a monthly subscription, or pay a
+              lump sum for a discount. Whatever works best for your business.,
+              key: -12f80563
+            label: Text
+            name: '-12f80563'
+            widget: text
+          - hint: "Original text: If you choose the Subscription plan, your subscription acts as a payment plan for 24 months. We do all the work upfront and let you pay for it over time, to match how your business cashflow works. After 24 months, your cost actually drops – yes,\_really – to $45/mo, with the same unlimited updates and hosting included., key: -479b2ea9"
+            label: Text
+            name: '-479b2ea9'
+            widget: text
+          - hint: 'Original text: Add-ons and upgrades, key: -24b9808'
+            label: Text
+            name: '-24b9808'
+            widget: string
+          - hint: >-
+              Original text: Every landscaping business has different needs. See
+              something you want? We'll add it on, no problem. Need something
+              else? Just ask., key: 53982fbf
+            label: Text
+            name: 53982fbf
+            widget: text
+          - hint: 'Original text: Contact us, key: 7f274abe'
+            label: Text
+            name: 7f274abe
+            widget: string
+          - hint: 'Original text: Additional pages, key: -77eeb955'
+            label: Text
+            name: '-77eeb955'
+            widget: string
+          - hint: >-
+              Original text: Standard sites include 5 pages (which we’ll list
+              out before development). Additional pages, if needed, are $150/per
+              page, flat fee., key: 7aa9a04
+            label: Text
+            name: 7aa9a04
+            widget: text
+          - hint: 'Original text: Logo design, key: 1f1965b3'
+            label: Text
+            name: 1f1965b3
+            widget: string
+          - hint: >-
+              Original text: Need a logo to get started? Or need a refresh?
+              We’ll design your logo, with 2 revisions, and deliver all the
+              files you need to use it anywhere. Logo design costs $350., key:
+              -4d2ac601
+            label: Text
+            name: '-4d2ac601'
+            widget: text
+          - hint: "Original text: SEO\_blog writing, key: -2ead221f"
+            label: Text
+            name: '-2ead221f'
+            widget: string
+          - hint: >-
+              Original text: One blog post, written by an SEO writer, per month,
+              1000+ words. Includes blog setup. Monthly blogging costs
+              $300/month, and $150 for additional posts., key: 6f8664b1
+            label: Text
+            name: 6f8664b1
+            widget: text
+          - hint: 'Original text: Need something else?, key: -756f806a'
+            label: Text
+            name: '-756f806a'
+            widget: string
+          - hint: >-
+              Original text: We’re here for your needs. Contact us and let us
+              know what you’re looking for, and we’ll do our best to make it
+              happen., key: 237c8f62
+            label: Text
+            name: 237c8f62
+            widget: text
+          - hint: 'Original text: Got questions?, key: 4b4aecc6'
+            label: Text
+            name: 4b4aecc6
+            widget: string
+          - hint: 'Original text: Read FAQ, key: -2ff36274'
+            label: Text
+            name: '-2ff36274'
+            widget: string
+          - hint: 'Original text: Our differentiators, key: -63783867'
+            label: Text
+            name: '-63783867'
+            widget: string
+          - hint: "Original text: We build professional, affordable lawn care and landscaping websites to start generating leads as\_soon\_as\_possible., key: 3b0c204f"
+            label: Text
+            name: 3b0c204f
+            widget: text
+          - hint: 'Original text: Performance Focused, key: -369698b9'
+            label: Text
+            name: '-369698b9'
+            widget: string
+          - hint: >-
+              Original text: With relentless dedication to page speed,
+              optimization for mobile devices, and keyword-centered content, our
+              websites are built to be found on Google. And once your customer
+              finds you, we use proven design patterns to get them to reach
+              out., key: -32a97ee0
+            label: Text
+            name: '-32a97ee0'
+            widget: text
+          - hint: 'Original text: Professional Design, key: 7d2155d7'
+            label: Text
+            name: 7d2155d7
+            widget: string
+          - hint: >-
+              Original text: Premium design attracts high-value clients. We
+              design modern sites, that are clean and clear – allowing users to
+              quickly get where they need, contacting you. We pride ourselves on
+              being timeless, not trendy, and focusing on what works., key:
+              -64a0b1d6
+            label: Text
+            name: '-64a0b1d6'
+            widget: text
+          - hint: 'Original text: Hassle-Free, key: -4adeb4f9'
+            label: Text
+            name: '-4adeb4f9'
+            widget: string
+          - hint: >-
+              Original text: We manage your site for you, so you can focus on
+              your business. You don’t have to worry about hosting, security, or
+              anything else, and we’re always here for unlimited updates. Plus,
+              we’re just darn friendly., key: -1edd90e2
+            label: Text
+            name: '-1edd90e2'
+            widget: text
+          - hint: 'Original text: Affordable Price, key: 5227c963'
+            label: Text
+            name: 5227c963
+            widget: string
+          - hint: >-
+              Original text: Our subscription plan allows you to manage your
+              expenses, the same way you manage your cashflow – predictable and
+              monthly. Most sites cost less than you’ll make from one new
+              customer., key: -102d8b65
+            label: Text
+            name: '-102d8b65'
+            widget: text
+          - hint: 'Original text: Seriously, how is the price so good?, key: 20af6725'
+            label: Text
+            name: 20af6725
+            widget: string
+          - hint: >-
+              Original text: Seem to good to be true? Here's how we keep our
+              price low., key: 2774fc97
+            label: Text
+            name: 2774fc97
+            widget: string
+          - hint: 'Original text: Specialization, key: -13064255'
+            label: Text
+            name: '-13064255'
+            widget: string
+          - hint: >-
+              Original text: Because we focus on lawn care and landscaping, we
+              can follow a process that makes us much more efficient., key:
+              6332b7d7
+            label: Text
+            name: 6332b7d7
+            widget: text
+          - hint: 'Original text: Focus, key: 40e64b8'
+            label: Text
+            name: 40e64b8
+            widget: string
+          - hint: >-
+              Original text: We focus on what works – sites that perform well,
+              get new leads, and look professional. We’re not fancy., key:
+              -2e392536
+            label: Text
+            name: '-2e392536'
+            widget: text
+          - hint: 'Original text: Frequently asked questions, key: 7c9faae0'
+            label: Text
+            name: 7c9faae0
+            widget: string
+          - hint: "Original text: We're all about simplicity, so we break down everything you need to know about your new\_website., key: -61c89113"
+            label: Text
+            name: '-61c89113'
+            widget: text
+          - hint: >-
+              Original text: How are your websites so affordable?, key:
+              -224aeac8
+            label: Text
+            name: '-224aeac8'
+            widget: string
+          - hint: >-
+              Original text: We focus exclusively on lawn care and landscaping
+              websites, which makes us incredibly efficient. We've got the
+              process down to a science, so we can build successful sites
+              quickly every time. And most importantly – we focus on what
+              matters to deliver professional, affordable sites that bring in
+              new leads. No fancy animations or award-winning graphics – our
+              goal is to build sites that perform for Google and for users,
+              which means lightning fast page speeds, working great on mobile,
+              and content that answers customer's questions., key: 6745ee19
+            label: Text
+            name: 6745ee19
+            widget: text
+          - hint: 'Original text: Why don''t you have a setup fee?, key: 204f116a'
+            label: Text
+            name: 204f116a
+            widget: string
+          - hint: >-
+              Original text: Since we focus on lawn care and landscaping
+              websites, we model our business the same way you model yours. Your
+              cashflow is predictable and monthly, so we do the same thing. No
+              big upfront costs, so you can pay us as your customers pay you.
+              And, we want as low a barrier as possible to start bringing in the
+              new leads that are going to give you a return on your investment.,
+              key: -2bc21556
+            label: Text
+            name: '-2bc21556'
+            widget: text
+          - hint: >-
+              Original text: Note – if you prefer to pay for your website
+              upfront, we're happy to accommodate. Or if you'd like to make
+              larger payments over a shorter period of time, we'll work with you
+              to make it happen. Just , key: -9182a51
+            label: Text
+            name: '-9182a51'
+            widget: text
+          - hint: 'Original text: shoot us a note, key: -6cfdb2ae'
+            label: Text
+            name: '-6cfdb2ae'
+            widget: string
+          - hint: >-
+              Original text:  and let us know what you're thinking., key:
+              -2635c7ec
+            label: Text
+            name: '-2635c7ec'
+            widget: string
+          - hint: 'Original text: How long will my new website take?, key: -39cae647'
+            label: Text
+            name: '-39cae647'
+            widget: string
+          - hint: >-
+              Original text: Most sites take under 2 weeks from the time we
+              receive your questionnaire to launch. Sometimes, we'll have
+              additional questions for you, and you'll have an opportunity to
+              review the site before launch. If either of those take longer than
+              expected on your end, it may cause delays for launch, but we'll
+              let you know what to expect as best we can., key: 13e17d15
+            label: Text
+            name: 13e17d15
+            widget: text
+          - hint: >-
+              Original text: Who writes the content for the site?, key:
+              -5d925f6e
+            label: Text
+            name: '-5d925f6e'
+            widget: string
+          - hint: >-
+              Original text: We've got it covered. Our questionnaire will ask
+              you questions about your business, services, and brand, and we'll
+              create all the SEO-optimized content for your site. If we have any
+              more questions after we receive the questionnaire, we'll reach
+              out, and if you have any changes or tweaks, we're happy to make
+              them., key: 4c0ceeef
+            label: Text
+            name: 4c0ceeef
+            widget: text
+          - hint: 'Original text: Who finds images for my site?, key: -7596a4c5'
+            label: Text
+            name: '-7596a4c5'
+            widget: string
+          - hint: >-
+              Original text: We do! We'll find good-looking stock images that
+              fit your site. If you have any photos you want to include, like
+              really good client lawns or selfies of the crew, just send them
+              over., key: -4fc7d2
+            label: Text
+            name: '-4fc7d2'
+            widget: text
+          - hint: >-
+              Original text: What's included in unlimited updates?, key:
+              -34c0165
+            label: Text
+            name: '-34c0165'
+            widget: string
+          - hint: >-
+              Original text: Updates to content, images, colors, or minor layout
+              tweaks are all included free of charge. Anything requiring larger
+              layout changes, new functionality, new pages, or custom graphics
+              or illustrations are considered additions instead of updates, and
+              we'll work with you to find the best way to get them into your
+              site., key: -5d0e2fd8
+            label: Text
+            name: '-5d0e2fd8'
+            widget: text
+          - hint: >-
+              Original text: Will I be able to edit the website myself?, key:
+              67612374
+            label: Text
+            name: '67612374'
+            widget: string
+          - hint: "Original text: No –\_but for a good reason. One of the ways we keep your cost low, and keep your site performing well, is our proprietary site management process. We know exactly how to do what we do, including optimizing images that you send, and making sure content updates don't break layouts. It's part of how we make the whole process hassle-free, you don't have to worry about updates breaking your site because we manage it for you. Instead, we offer unlimited updates –\_you'll just send us what you want updated, and we'll get it taken care of., key: -5da1ba3"
+            label: Text
+            name: '-5da1ba3'
+            widget: text
+          - hint: >-
+              Original text: Why do you only work with lawn care and
+              landscaping?, key: fc213ac
+            label: Text
+            name: fc213ac
+            widget: string
+          - hint: "Original text: When most clients are looking for home services like lawn care and landscaping, the first place they turn is Google. But for some reason, most businesses in this industry either don't have a website, or have a really bad site on something like Wix that doesn't represent your business well. Part of this is because quality web designers or agencies can be expensive. So we offer a unique solution to get a professional website, without breaking the bank, with a business model that matches yours –\_predictable, low monthly payments., key: 5f85e6e1"
+            label: Text
+            name: 5f85e6e1
+            widget: text
+          - hint: 'Original text: What if I don''t have a domain yet?, key: -68bfc8b6'
+            label: Text
+            name: '-68bfc8b6'
+            widget: string
+          - hint: >-
+              Original text: If you prefer to own your domain yourself, we can
+              provide a video on how to purchase your domain and give us access
+              to manage it for you. If you prefer us to take care of it, we'll
+              just pass through the cost to you – domain costs can vary, but
+              most are around $12/yr., key: 7de855f4
+            label: Text
+            name: 7de855f4
+            widget: text
+          - hint: >-
+              Original text: Can you guarantee my site will rank on the first
+              page of Google?, key: 3e481422
+            label: Text
+            name: '3e481422'
+            widget: string
+          - hint: >-
+              Original text: It's important to understand that no web designer
+              can promise specific rankings on Google. The search algorithm
+              changes constantly, isn't open to the public, and is subject to a
+              huge number of factors including the searcher's location, your
+              competitors and other relevant sites, domain age, and much more.,
+              key: 2f9cc341
+            label: Text
+            name: 2f9cc341
+            widget: text
+          - hint: >-
+              Original text: What we can promise is that we stay on the front
+              end of guidelines and best practices for search engine
+              optimization to improve your site's visibility and chances of
+              ranking well in search engines. We actively submit your site to
+              Google, create keyword-friendly content, provide relevant and
+              optimized metadata, optimize for speed and mobile responsiveness,
+              and make sure your site is accessible. All of these are signals
+              that search engines like Google look at when determining what
+              sites to show when a user searches., key: 990299
+            label: Text
+            name: '990299'
+            widget: text
+          - hint: 'Original text: Who owns my website?, key: -73ca2ab9'
+            label: Text
+            name: '-73ca2ab9'
+            widget: string
+          - hint: >-
+              Original text: You do! More specifically, you have the exclusive
+              rights to use your website. Once your website is paid in full, you
+              can request the site files and we'll be happy to send them your
+              way to do whatever you want with. , key: 33907150
+            label: Text
+            name: '33907150'
+            widget: text
+          - hint: >-
+              Original text: What if I decide to cancel my subscription?, key:
+              47e3ba69
+            label: Text
+            name: 47e3ba69
+            widget: string
+          - hint: >-
+              Original text: In the first 24 months of your subscription, your
+              monthly payments act as a payment plan toward the full value of
+              your website. If you decide to cancel at any time, we'll certainly
+              miss you! You'll need to pay off your remaining balance, and then
+              we can send you the site files for you to host anywhere you want.,
+              key: 26ac1a4d
+            label: Text
+            name: 26ac1a4d
+            widget: text
+          - hint: >-
+              Original text: After 24 months, your lowered payment covers
+              hosting, maintenance, associated fees, and of course your
+              unlimited update service. If you want to cancel, just send us a
+              note and we'll send you your site files, no questions asked., key:
+              72da678d
+            label: Text
+            name: 72da678d
+            widget: text
+          - hint: >-
+              Original text: Once your full balance is paid and we hand off the
+              site files, your site will be removed from our servers, which may
+              mean your site will go down if you don't have a new site setup, or
+              the site files hosted elsewhere., key: -4e8d51b7
+            label: Text
+            name: '-4e8d51b7'
+            widget: text
+          - hint: 'Original text: Still have questions?, key: 5c60abb2'
+            label: Text
+            name: 5c60abb2
+            widget: string
+          - hint: >-
+              Original text: Shoot us an email, we're happy to answer your
+              questions., key: 377aa05f
+            label: Text
+            name: 377aa05f
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -1810,6 +2529,47 @@ collections:
               5ba83a96
             label: Link
             name: 5ba83a96
+            widget: string
+          - hint: 'Original link: /the-difference, key: 5950e208'
+            label: Link
+            name: '5950e208'
+            widget: string
+          - hint: 'Original link: /how-it-works, key: -1389514'
+            label: Link
+            name: '-1389514'
+            widget: string
+          - hint: 'Original link: /pricing, key: -702349'
+            label: Link
+            name: '-702349'
+            widget: string
+          - hint: 'Original link: /untitled, key: 39578214'
+            label: Link
+            name: '39578214'
+            widget: string
+          - hint: 'Original link: https://relume.io, key: -48962a2f'
+            label: Link
+            name: '-48962a2f'
+            widget: string
+          - hint: >-
+              Original link:
+              mailto:cutabovewebdesign@gmail.com?subject=Add-On%20Request, key:
+              -65cbeb39
+            label: Link
+            name: '-65cbeb39'
+            widget: string
+          - hint: >-
+              Original link:
+              mailto:cutabovewebdesign@gmail.com?subject=New%20Website%20Request,
+              key: -1bf52c6c
+            label: Link
+            name: '-1bf52c6c'
+            widget: string
+          - hint: >-
+              Original link:
+              mailto:cutabovewebdesign@gmail.com?subject=Website%20Inquiry, key:
+              5274e40f
+            label: Link
+            name: 5274e40f
             widget: string
       - label: Images
         name: images
@@ -1910,5 +2670,107 @@ collections:
                 label: Image Alt
                 widget: string
                 required: false
-local_backend: true
-publish_mode: editorial_workflow
+          - label: Image
+            name: 2c8f058a
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-6992e8d3'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 78a34a63
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-7b3d3c17'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-5035a6fb'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 2906f062
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 9e73b62
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-62638696'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false

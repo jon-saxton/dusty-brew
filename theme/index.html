@@ -26,10 +26,7 @@
   <script async="" src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsload@1/cmsload.js"></script>
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
-        }</style><style>picture { border: 0;
-        max-width: 100%;
-        vertical-align: middle;
-        display: inline-block; }</style></head>
+        }</style></head>
 <body>
   <div class="page-wrapper">
     <div class="global-styles w-embed">
@@ -241,7 +238,7 @@ hr {
     </div>
     <div data-animation="over-left" class="nav_component w-nav" data-easing2="ease" fs-scrolldisable-element="smart-nav" data-easing="ease" data-collapse="medium" data-w-id="79c2c86e-db31-b7ef-6b9c-b2cdc9e00add" role="banner" data-duration="400">
       <div class="nav_container">
-        <a aria-label="home" href="{{ links.2f }}" aria-current="page" class="w-inline-block w--current">{%- image images.-2a484e45.url, images.-2a484e45.alt, '[]', 'loading="eager" width="200" height="65" class="nav_logo"' -%}</a>
+        <a aria-label="home" href="{{ links.2f }}" aria-current="page" class="w-inline-block w--current"><img src="{{ images.-2a484e45.url }}" loading="eager" width="200" height="65" alt="{{ images.-2a484e45.alt | trim | escape }}" class="nav_logo"></a>
       </div>
     </div>
     <main class="main-wrapper">
@@ -254,7 +251,7 @@ hr {
                   {%- unless pagination.length == 0 -%}<div fs-cmsload-element="list" fs-cmsload-mode="load-under" role="list" class="home_list w-dyn-items">
                     {%- for item in pagination[0] -%}<div role="listitem" class="home_item w-dyn-item">
                       <a aria-label="" href="{{ item.url }}" class="home_image-link w-inline-block">
-                        <div class="home_image-wrapper">{%- image item.data.f_image.url, item.data.f_image.alt, '[{"max":767,"size":"90vw"},{"max":991,"size":"43vw"},{"max":10000,"size":"28vw"}]', 'loading="eager" class="home_image"' -%}</div>
+                        <div class="home_image-wrapper"><img loading="eager" data-sizes="[{&quot;max&quot;:767,&quot;size&quot;:&quot;90vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;43vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;28vw&quot;}]" src="{{ item.data.f_image.url }}" alt="{{ item.data.title }}" class="home_image"></div>
                       </a>
                       <a href="{{ item.url }}" class="home_title-link w-inline-block">
                         <h3 class="heading-style-h4">{{ item.data.title }}</h3>
@@ -262,7 +259,7 @@ hr {
                     </div>{%- endfor -%}
                   {%- for paginationPage in pagination -%}{%- if forloop.index > 1 -%}{%- assign paginationFilePath = "/public/_data/paginations" | appendMultiple: page.filePathStem, "/page--66e53865-", forloop.index, ".html" -%}<template data-pagination-index="{{ forloop.index }}" data-pagination-url="{{ paginationFilePath | replace: "/public", "" }}">{% capture currentPageHTML %}{%- for item in paginationPage -%}<div role="listitem" class="home_item w-dyn-item">
                       <a aria-label="" href="{{ item.url }}" class="home_image-link w-inline-block">
-                        <div class="home_image-wrapper">{%- image item.data.f_image.url, item.data.f_image.alt, '[{"max":767,"size":"90vw"},{"max":991,"size":"43vw"},{"max":10000,"size":"28vw"}]', 'loading="eager" class="home_image"' -%}</div>
+                        <div class="home_image-wrapper"><img loading="eager" data-sizes="[{&quot;max&quot;:767,&quot;size&quot;:&quot;90vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;43vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;28vw&quot;}]" src="{{ item.data.f_image.url }}" alt="{{ item.data.title }}" class="home_image"></div>
                       </a>
                       <a href="{{ item.url }}" class="home_title-link w-inline-block">
                         <h3 class="heading-style-h4">{{ item.data.title }}</h3>
@@ -295,7 +292,7 @@ hr {
           <div class="padding-bottom padding-xxlarge">
             <div class="padding-bottom">
               <div class="footer7_top-wrapper">
-                <a href="{{ links.2f }}" id="w-node-_199b079e-5383-b35b-4566-32fb63bc9351-63bc934b" aria-current="page" class="footer7_logo-link w-nav-brand w--current">{%- image images.-2a484e45.url, images.-2a484e45.alt, '[]', 'loading="lazy" height="65" width="235.5"' -%}</a>
+                <a href="{{ links.2f }}" id="w-node-_199b079e-5383-b35b-4566-32fb63bc9351-63bc934b" aria-current="page" class="footer7_logo-link w-nav-brand w--current"><img src="{{ images.-2a484e45.url }}" loading="lazy" height="65" width="235.5" alt="{{ images.-2a484e45.alt | trim | escape }}"></a>
               </div>
             </div>
             <div class="line-divider"></div>

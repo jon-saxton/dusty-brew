@@ -28,18 +28,15 @@
   <meta name="robots" content="noindex, nofollow">
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
-        }</style><style>picture { border: 0;
-        max-width: 100%;
-        vertical-align: middle;
-        display: inline-block; }</style></head>
+        }</style></head>
 <body>
   <div data-animation="over-left" class="nav_component w-nav" data-easing2="ease" fs-scrolldisable-element="smart-nav" data-easing="ease" data-collapse="medium" data-w-id="79c2c86e-db31-b7ef-6b9c-b2cdc9e00add" role="banner" data-duration="400">
     <div class="nav_container">
-      <a aria-label="home" href="{{ links.2f }}" class="w-inline-block">{%- image images.-2a484e45.url, images.-2a484e45.alt, '[]', 'loading="eager" width="200" height="65" class="nav_logo"' -%}</a>
+      <a aria-label="home" href="{{ links.2f }}" class="w-inline-block"><img src="{{ images.-2a484e45.url }}" loading="eager" width="200" height="65" alt="{{ images.-2a484e45.alt | trim | escape }}" class="nav_logo"></a>
     </div>
   </div>
   <div class="utility_component">
-    <div class="utility_form-block w-form">{%- image images.-6087357f.url, images.-6087357f.alt, '[]', 'class="utility_image"' -%}
+    <div class="utility_form-block w-form"><img src="{{ images.-6087357f.url }}" alt="{{ images.-6087357f.alt | trim | escape }}" class="utility_image">
       <h3>{{ texts.-40b0787c }}</h3>
       <div class="padding-xxsmall"></div>
       <div>{{ texts.556d64d8 }}</div>
@@ -53,7 +50,7 @@
         <div class="padding-bottom padding-xxlarge">
           <div class="padding-bottom">
             <div class="footer7_top-wrapper">
-              <a href="{{ links.2f }}" id="w-node-_199b079e-5383-b35b-4566-32fb63bc9351-63bc934b" class="footer7_logo-link w-nav-brand">{%- image images.-2a484e45.url, images.-2a484e45.alt, '[]', 'loading="lazy" height="65" width="235.5"' -%}</a>
+              <a href="{{ links.2f }}" id="w-node-_199b079e-5383-b35b-4566-32fb63bc9351-63bc934b" class="footer7_logo-link w-nav-brand"><img src="{{ images.-2a484e45.url }}" loading="lazy" height="65" width="235.5" alt="{{ images.-2a484e45.alt | trim | escape }}"></a>
             </div>
           </div>
           <div class="line-divider"></div>

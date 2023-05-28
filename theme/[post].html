@@ -257,6 +257,16 @@ hr {
 .w-richtext figure.w-richtext-align-fullwidth>div {
 	height: 100%;
 }
+.text-rich-text img{
+    max-width: none !important;
+    height: 20rem;
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    width: 100%;
+    object-fit: contain;
+}
 .text-rich-text figcaption {
 	margin-top: 1.5rem;
 }
@@ -365,46 +375,52 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script><!--  Automagically set inline-buttons to the URL of the previous header  -->
   <script>
-window.onload = function() {
-function findPreviousHeader(element) {
-  let previousElement = element.previousElementSibling;
-  if (!previousElement) {
-    return null;
-  } else if (previousElement.tagName.match(/H[1-4]/i)) {
-    return previousElement;
-  } else {
-    return findPreviousHeader(previousElement);
-  }
-}
-let inlineButtons = document.querySelectorAll('.inline-button');
-inlineButtons.forEach(inlineButton => {
-  let previousHeader = findPreviousHeader(inlineButton);
-  if (previousHeader) {
-    let headerLink = previousHeader.querySelector('a');
-    if (headerLink) {
-      inlineButton.href = headerLink.href;
-      inlineButton.target = "_blank";
-      inlineButton.rel = "noopener noreferrer";
-      let wrapperDiv = document.createElement('div');
-      wrapperDiv.style.marginTop = "1rem";
-      wrapperDiv.style.marginBottom = "2rem";
-      inlineButton.parentNode.insertBefore(wrapperDiv, inlineButton);
-      wrapperDiv.appendChild(inlineButton);
+window.onload = function () {
+  function findPreviousHeader(element) {
+    let previousElement = element.previousElementSibling;
+    if (!previousElement) {
+      let parent = element.parentNode;
+      if (parent.tagName.match(/H[1-4]/i)) {
+        return parent;
+      } else {
+        return findPreviousHeader(parent);
+      }
+    } else if (previousElement.tagName.match(/H[1-4]/i)) {
+      return previousElement;
+    } else {
+      return findPreviousHeader(previousElement);
     }
   }
-});
+  let inlineButtons = document.querySelectorAll(".inline-button");
+  inlineButtons.forEach((inlineButton) => {
+    let previousHeader = findPreviousHeader(inlineButton);
+    if (previousHeader) {
+      let headerLink = previousHeader.querySelector("a");
+      if (headerLink) {
+        inlineButton.href = headerLink.href;
+        inlineButton.target = "_blank";
+        inlineButton.rel = "noopener noreferrer";
+        let wrapperDiv = document.createElement("div");
+        wrapperDiv.style.marginTop = "1rem";
+        wrapperDiv.style.marginBottom = "2rem";
+        inlineButton.parentNode.insertBefore(
+          wrapperDiv,
+          inlineButton.parentNode.firstChild
+        );
+        wrapperDiv.appendChild(inlineButton);
+      }
+    }
+  });
 };
 </script>
   <!--  Add Amazon photo credit to every photo in the post  -->
   <script>
-const figures = document.querySelectorAll('.text-rich-text figure');
-figures.forEach((figure) => {
-  const figcaption = document.createElement('figcaption');
-  figcaption.textContent = 'Image courtesy of Amazon';
-  figure.appendChild(figcaption);
+const images = document.querySelectorAll(".text-rich-text img");
+images.forEach((image) => {
+  const figcaption = document.createElement("figcaption");
+  figcaption.textContent = "Image courtesy of Amazon";
+  image.parentNode.appendChild(figcaption);
 });
 </script>
-  <script src="https://t56ui9.csb.app/link.js"></script>
-  <script src="https://t56ui9.csb.app/credit.js"></script>
 
 <script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.1/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>

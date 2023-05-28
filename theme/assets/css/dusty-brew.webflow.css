@@ -785,6 +785,11 @@ figcaption {
   background-color: #fff;
 }
 
+.button.inline-button {
+  background-color: #fa0;
+  padding: .5rem 1.25rem;
+}
+
 .text-weight-normal {
   font-weight: 400;
 }

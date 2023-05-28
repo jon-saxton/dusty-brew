@@ -28,11 +28,14 @@
   <meta name="robots" content="noindex, nofollow">
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
-        }</style></head>
+        }</style><style>picture { border: 0;
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block; }</style></head>
 <body>
   <div class="utility_component">
     <div class="utility_form-block w-password-page w-form">
-      <form action="/.wf_auth" method="post" id="email-form" name="email-form" data-name="email" class="utility_form w-password-page" data-ajax="true"><img src="{{ images.-7a700be7.url }}" alt="{{ images.-7a700be7.alt | trim | escape }}" width="106" class="utility_image">
+      <form action="/.wf_auth" method="post" id="email-form" name="email-form" data-name="email" class="utility_form w-password-page" data-ajax="true">{%- image images.-7a700be7.url, images.-7a700be7.alt, '[]', 'width="106" class="utility_image"' -%}
         <h3>{{ texts.-11d4bbff }}</h3>
         <div class="padding-xxsmall"></div><input type="password" class="form-input w-password-page w-input" autofocus="true" maxlength="256" name="pass" data-name="field" placeholder="Enter your password" id="pass">
         <div class="padding-xxsmall"></div><input type="submit" value="Submit" data-wait="Please wait..." class="button w-password-page w-button">

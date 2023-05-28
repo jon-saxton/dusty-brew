@@ -1564,6 +1564,11 @@ figcaption {
   text-decoration: underline;
 }
 
+.inline-button {
+  background-color: #fa0;
+  border-radius: 8px;
+}
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 3.25rem;
